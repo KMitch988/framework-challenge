@@ -2,7 +2,22 @@
     .col-sm{
         display: none;
     }
+
     body{
         display: grid;
     }
+}
+
+
+.card{
+    max-width: 900px;
+}
+
+.btn{
+    background: #e51b24;
+    color: white;
+}
+
+a{
+    color: #e51b24;
 }
