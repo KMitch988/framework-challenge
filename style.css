@@ -1,16 +1,31 @@
-@media screen and (max-width: 670px) {
-    .col-sm{
+@media screen and (max-width: 826px) {
+   .login{
+        display: grid;
+    }
+
+    #first_col{
         display: none;
     }
 
-    body{
-        display: grid;
+    #second_col{
+        padding: 0px 20px 0px 20px;
     }
+
 }
 
 
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(Images/Atari_Collage.jpg);
+}
+
 .card{
-    max-width: 900px;
+    max-width: 960px;
+    max-height: 720px;
+    border-color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .btn{
@@ -19,5 +34,13 @@
 }
 
 a{
+    color: #e51b24;
+}
+
+#email,#password{
+    border-color: rgba(60, 60, 60, 0.213);
+}
+
+.focus-ring{
     color: #e51b24;
 }
